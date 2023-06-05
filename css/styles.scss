@@ -5,15 +5,9 @@
 body {
 	margin: 0;
 	font-family: "source-sans-pro", sans-serif;
-	font-weight: 400;
-	font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-size: 44px;
-	line-height: 1em;
-	font-weight: 700;
-	letter-spacing: -0.03em;
 	margin: 0;
 	padding: 0;
 	font-family: 'Alexandria', sans-serif;
@@ -51,22 +45,12 @@ img {
 	right: 0;
 	bottom: auto;
 	z-index: 1;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 	height: 80px;
-	margin-left: 64px;
+	margin-left: 250px;
 	padding-left: 26px;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	-ms-flex-pack: justify;
 	justify-content: space-between;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
 	align-items: center;
-	background-color: #fdfdfe;
 	border-bottom: 1px solid #FFFFFF;
 	transition: 0.5s;
 }
@@ -93,12 +77,6 @@ img {
 	opacity: 0.7;
 }
 
-.navbar-brand {
-	font-size: 17px;
-	margin-left: 8px;
-	margin-right: 0;
-}
-
 .logo {
 	min-width: 150px;
 	max-width: 40px;
@@ -106,17 +84,9 @@ img {
 	margin-bottom: 2px;
 }
 
-.mp-text {
-	padding-left: 20px;
-	color: #56534d;
-	font-size: 16px;
-	text-decoration: none;
-	white-space: nowrap;
-}
-
 #menu-list {
 	margin-top: 4rem;
-	transform: translate3d(-300px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
 	transition: 0.5s;
 	box-sizing: content-box;
 }
@@ -127,11 +97,6 @@ img {
 
 .nav-item:hover {
 	background: #ab987a;
-}
-
-.flex-break {
-	flex-basis: 100%;
-	height: 0;
 }
 
 .socials {
@@ -157,37 +122,19 @@ img {
 }
 
 #heroVideo {
+	height: 100vh;
 	width: 100%;
 	object-fit: cover;
+}
+
+#heroImg {
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.mt-80 {
 	margin-top: 80px;
-}
-
-.intro-paragraph-about {
-	margin-top: 57px;
-	margin-bottom: 35px;
-}
-
-.arrow-link {
-	display: inline-block;
-	padding-bottom: 12px;
-	border-bottom: 2px solid #FFFFFF;
-	transition: 200ms ease;
-}
-
-.arrow-link:hover {
-	padding-left: 15px;
-}
-
-.text-gold {
-	background: -webkit-linear-gradient(#eacda3, #e6b980);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.text-silver {
-	background: -webkit-linear-gradient(#ffffff, #d7d7d7);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 .fade-in-left {
@@ -243,7 +190,7 @@ img {
 
 .navbar-desktop {
 	height: 100vh;
-	width: 64px;
+	width: 250px;
 	position: sticky;
 	z-index: 1;
 	top: 0;
@@ -266,16 +213,22 @@ img {
 .nav-button {
 	display: flex;
 	height: 100%;
+	background: #ab987a;
 	//position: relative;
 	//right: 0;
 	padding-right: 64px;
 	padding-left: 64px;
 	//justify-content: center;
 	align-items: center;
-	transition: background-color 200ms ease;
 	text-decoration: none;
 	text-transform: uppercase;
+	transition: .3s ease-in-out;
 }
+
+.nav-button:hover {
+	background: #bda888;
+}
+
 
 .nav-button div {
 	font-size: 14px;
@@ -334,25 +287,39 @@ a:active, a:hover {
 	left: 50%;
 	top: 50%;
 	display: none;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	cursor: auto;
+	transition: .3s ease-in-out;
+}
+
+#menu-close:hover {
+	transform: translate(-50%, -50%) rotate(180deg);
+
+}
+
+.menu-button .hamburger-line._1-line,._3-line {
+	transition: .3s ease-out;
+}
+
+.menu-button:hover ._1-line {
+	position: relative;
+	width: 15px;
+}
+
+.menu-button:hover ._3-line {
+	position: relative;
+	width: 15px;
 }
 
 .hamburger-line._4-line {
 	position: relative;
 	top: 8px;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 
 .hamburger-line._5-line {
 	position: relative;
 	top: -7px;
-	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
 
@@ -392,18 +359,221 @@ a:active, a:hover {
 	max-width: none;
 }
 
-@media screen and (min-width: 768px) {
-	.intro-paragraph-about {
-		width: 75%;
+.aboutText p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.car-image {
+	transition: .3s ease-in-out;
+}
+
+.car-image:hover {
+	opacity: .7;
+}
+
+.category-image {
+	width: 100%;
+	height: 25%;
+	object-fit: cover;
+}
+
+.max-lines {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.max-lines-1 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.card-img-top {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.sitemap-text {
+	transition: .3s ease-in-out;
+}
+
+.sitemap-text:hover {
+	opacity: .7;
+}
+
+.parallax {
+	background-image: url("../images/service_aftale.webp");
+
+	height: 450px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.service-caption {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bg-404 {
+	background-image: url("../images/404.webp");
+
+	width: 100%;
+	height: 100vh;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn-404 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.car-deal {
+	background-image: url("../images/hongqi_e-hs9_2.webp");
+
+	height: 750px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.service-border {
+		background-color: #ab987a;
+		color: #fff;
+		padding: 18px;
+		font-size: 25px;
+}
+
+.facility {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.static-map {
+	border:0;
+	height: 450px;
+	width: 100%;
+	object-fit: cover;
+	transition: .3s ease-in-out;
+}
+
+.map-image-container {
+	position: relative;
+	display: inline-block;
+}
+
+.map-image-container:hover img {
+	opacity: 0.5;
+}
+
+.map-image-container .map-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.map-image-container:hover .map-overlay {
+	opacity: 1;
+}
+
+.map-image-container .map-overlay p {
+	font-size: 24px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.scrollFade {
+	opacity: 1;
+	pointer-events: all;
+
+	&--hidden {
+		opacity: 0;
+		pointer-events: none;
 	}
+
+	&--visible {
+		opacity: 1;
+		pointer-events: all;
+	}
+
+	&--animate {
+		transition: opacity 0.4s ease-in-out;
+	}
+}
+
+.scrollBtn {
+	position: absolute;
+	top: 87%;
+	right: 50%;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	transform: rotate(-45deg);
+	animation: moveDown 1.5s infinite;
+	box-sizing: border-box;
+}
+
+@keyframes moveDown {
+	0% {
+		transform: rotate(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+
+.products .items .card-img-top {
+	height: 200px;
+	object-fit: cover;
+}
+
+.car-logo {
+	max-height: 50px;
+}
+
+// Breakpoint
+@media screen and (min-width: 768px) {
 	body {
 		display: flex;
 	}
 	.brand {
 		margin-left: 16px;
-	}
-	.intro-block-home {
-		margin-top: 80px;
 	}
 	.menu-wrap {
 		margin-top: 8px;
@@ -413,8 +583,12 @@ a:active, a:hover {
 		padding-right: 40px;
 		max-width: none;
 	}
+	.parallax {
+		height: 500px;
+	}
 }
 
+// Breakpoint
 @media screen and (min-width: 992px) {
 	.navigation {
 		height: 100vh;
@@ -429,20 +603,15 @@ a:active, a:hover {
 	#top-menu {
 		padding-left: 60px;
 	}
-	.intro-heading-about {
-		width: 365px;
-	}
-	.intro-paragraph-about {
-		width: 535px;
-	}
 	.container {
 		padding-left: 76px;
 		padding-right: 76px;
 		max-width: none;
 	}
-	#heroVideo {
-		width: 100%;
-		height: 650px;
-		object-fit: cover;
+	.car-deal {
+		background-image: url("../images/hongqi_e-hs9.webp");
+	}
+	.scrollBtn {
+		right: 5%;
 	}
 }

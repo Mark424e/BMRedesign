@@ -4,19 +4,10 @@
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 
-//Tilføj eller ret farver i Bootstrap. Herunder er primary blot sat til den normale primary
-/*
-Eksempel på farver
-$custom-colors: (
-        "primary": #0000ff,
-        "minFarve": #ffff00
-);
- */
-
 $custom-colors: (
         "primary": #0f1626,
         "secondary": #ab987a,
-        "tertiary": #FFFFFF
+        "gray": #9ba2b8,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
