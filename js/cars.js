@@ -34,7 +34,7 @@ export default class Cars {
 
             col.innerHTML = `
                     <a href="product.php?carID=${item.carID}" class="text-decoration-none card bg-primary text-light h-100">
-                        <div><img src="uploads/${item.carImg}" class="card-img-top"></div>
+                        <div><img src="uploads/${item.carImg}" class="card-img-top" alt="${item.carBrand} ${item.carModel}"></div>
                         <div class="card-body">
                             <div class="row justify-content-between">
                         
@@ -44,7 +44,7 @@ export default class Cars {
                                 </div>
                             
                                 <div class="d-flex justify-content-end col-3">
-                                    <img class="car-logo" src="uploads/${item.carLogo}">
+                                    <img class="car-logo" src="uploads/${item.carLogo}" alt="${item.carLogo}">
                                 </div>
                            
                             </div>
