@@ -59,11 +59,12 @@
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script><div id="fb-root"></div>
+
 <script type="module">
 
     import Cars from "./js/cars.js";
-    const songs = new Cars();
-    songs.init();
+    const cars = new Cars();
+    cars.init();
 
 </script>
 
