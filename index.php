@@ -37,9 +37,10 @@
 
 	<!-- Hero -->
 	<div class="mt-80 hero">
-        <div>
-            <a class="scrollBtn" href="#scrollSection"><span></span></a>
-        </div>
+
+        <a href="#scrollSection" class="scrollBox">
+            <div class="scrollBtn" ><span></span></div>
+        </a>
 
 		<video class="d-block" id="heroVideo" autoplay muted playsinline loop>
 			<source src="videos/hero.webm" type="video/webm">
@@ -164,7 +165,7 @@
                         <li>Med anhængertræk, og kan trække op til 1.500 kg</li>
                     </ul>
                     <div class="border-top pt-4">
-                        <div class="col-auto text-light btn btn-secondary p-3 pe-5 ps-5 rounded-0">LÆS MERE</div>
+                        <a href="https://hongqi.dk/hongqi-e-hs9/" target="_blank" class="col-auto text-light btn btn-secondary p-3 pe-5 ps-5 rounded-0">LÆS MERE</a>
                     </div>
                 </div>
             </div>

@@ -529,17 +529,27 @@ a:active, a:hover {
 	}
 }
 
-.scrollBtn {
+.scrollBox {
 	position: absolute;
-	top: 87%;
-	right: 50%;
+	left: 50%;
+	bottom: 0;
+	width: 75px;
+	height: 75px;
+	margin: 0 0 50px 0;
+	transform: translateX(-50%);
+	z-index: 1000;
+}
+
+.scrollBtn {
+	position: relative;
+	top: 0;
+	left: 16%;
+	transform: translate(-50%, -50%);
 	display: inline-block;
-	width: 24px;
-	height: 24px;
-	margin-left: -12px;
-	border-left: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	transform: rotate(-45deg);
+	width: 50px;
+	height: 50px;
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
 	animation: moveDown 1.5s infinite;
 	box-sizing: border-box;
 }
@@ -611,7 +621,10 @@ a:active, a:hover {
 	.car-deal {
 		background-image: url("../images/hongqi_e-hs9.webp");
 	}
-	.scrollBtn {
-		right: 5%;
+	.scrollBox {
+		left: unset;
+		right: 0;
+		margin: 0 50px 50px 0;
+		transform: translateX(5px);
 	}
 }
