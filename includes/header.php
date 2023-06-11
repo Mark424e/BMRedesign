@@ -27,11 +27,11 @@
                 </li>
 
                 <li class="nav-item py-3 px-4">
-                    <a class="nav-link text-decoration-none text-light" href="#">Brugte Biler</a>
+                    <a class="nav-link text-decoration-none text-light" href="usedcars.php">Brugte Biler</a>
                 </li>
 
                 <li class="nav-item py-3 px-4">
-                    <a class="nav-link text-decoration-none text-light" href="#">Services</a>
+                    <a class="nav-link text-decoration-none text-light" href="services.php">Services</a>
                 </li>
 
                 <li class="nav-item py-3 px-4">
@@ -85,10 +85,10 @@
                         <a class="nav-link text-decoration-none text-light" href="cars.php">Biler</a>
                     </li>
                     <li class="nav-item py-3 ps-4">
-                        <a class="nav-link text-decoration-none text-light" href="#">Brugte Biler</a>
+                        <a class="nav-link text-decoration-none text-light" href="usedcars.php">Brugte Biler</a>
                     </li>
                     <li class="nav-item py-3 ps-4">
-                        <a class="nav-link text-decoration-none text-light" href="#">Services</a>
+                        <a class="nav-link text-decoration-none text-light" href="services.php">Services</a>
                     </li>
                     <li class="nav-item py-3 ps-4">
                         <a class="nav-link text-decoration-none text-light" href="about.php">Om os</a>
