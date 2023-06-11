@@ -50,6 +50,10 @@ foreach ($cars as $product){
 
             <div class="col-12 col-lg-6 offset-lg-3 my-5 h-100">
 
+                <div class="mb-3">
+                    <a class="fw-bold text-primary text-decoration-none border-bottom border-3 border-primary" href="cars.php">Tilbage</a>
+                </div>
+
                 <div>
                     <?php
                     echo "<img src='uploads/$product->carImg' alt='Cover Art' class='w-100'>";
