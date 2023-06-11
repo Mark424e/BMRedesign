@@ -6,7 +6,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Brian Madsen | Bilforhandler af højeste kvalitet</title>
+	<title>Brian Madsen | Bilforhandler i Slagelse & Ringsted af højeste kvalitet</title>
 
 	<meta name="robots" content="All">
 	<meta name="author" content="Mark P. Thomassen">
@@ -86,10 +86,10 @@
     <div class="container scrollFade mt-5">
         <div class="row justify-content-between gy-3">
             <div class="col-12 col-md-3">
-                <a class="btn btn-secondary w-100 rounded-0 text-light p-3 text-nowrap overflow-hidden" href="#">NYE BILER</a>
+                <a class="btn btn-secondary w-100 rounded-0 text-light p-3 text-nowrap overflow-hidden" href="cars.php">NYE BILER</a>
             </div>
             <div class="col-12 col-md-3">
-                <a class="btn btn-secondary w-100 rounded-0 text-light p-3 text-nowrap overflow-hidden" href="#">BRUGTE BILER</a>
+                <a class="btn btn-secondary w-100 rounded-0 text-light p-3 text-nowrap overflow-hidden" href="usedcars.php">BRUGTE BILER</a>
             </div>
             <div class="col-12 col-md-3">
                 <a class="btn btn-secondary w-100 rounded-0 text-light p-3 text-nowrap overflow-hidden" href="https://vaskbilligst.dk/" target="_blank">BILPLEJE</a>
@@ -108,8 +108,8 @@
                 <p class="fw-bold mt-3">Din lokale autoriserede bilforhandler for Peugeot, Citroën, Opel, Fiat, Mitsubishi og Hongqi i Slagelse og Ringsted</p>
                 <p class="mt-3">
                     Vi sætter en ære i at vejlede individuelt, grundigt og troværdigt.
-                    Uanset om du er på udkig efter en ny eller brugt bil, leder efter en serviceaftale til din bil, er nysgerrig eller om du mangler ekstraudstyr til din bil -
-                    så kan du være sikker på, at vi gør alt for at finde netop den rigtige løsning til dig.
+                    Uanset om du er på udkig efter nye eller brugte biler til salg, hybrid, benzin, diesel eller elbiler, privatleasing eller billån -
+                    så kan du være sikker på, at vi har den rigtige løsning til lige netop dig.
                 </p>
                 <p class="mt-3">Vi glæder os til at byde dig velkommen hos Brian Madsen i Slagelse & Ringsted!</p>
                 <div class="col-4 mt-3">
@@ -132,8 +132,8 @@
 
             <div class="col-8 d-none d-md-block mb-5 text-light">
                 <p>
-                    Servicebooker er en online bookingtjeneste, hvor du døgnet rundt kan bestille en værkstedstid til din bil på et autoriseret værksted for Peugeot,
-                    Citroën, DS, Opel eller Mitsubishi. Flere af vores værksteder udfører også service og reparationer på andre bilmærker.
+                    Med vores online bookingtjeneste kan du sikre dig, at vi døgnet rundt står klar til at servicerer din bil.
+                    Vores bilmekanikere står klar til at hjælpe med alt fra bilpleje, hjulskift, autodele til reparation af din bil.
                 </p>
             </div>
 
@@ -180,7 +180,7 @@
         <div class="row justify-content-between mt-3">
 
             <div class="col-auto col-sm-6 col-lg-4 col-xl-3">
-                    <a class="text-decoration-none card rounded-0" href="https://www.facebook.com/brianmadsencom" target="_blank">
+                    <a class="text-decoration-none card rounded-0" href="https://www.facebook.com/brianmadsencom/posts/pfbid0DxCgkLBBARCTSZdXJzqDmPGecieaQ7vSRkfZzkEfW9Xyt4RNQZUhq778JPF6BTcsl" target="_blank">
                         <img src="images/facebook-post-img-1.webp" loading="lazy" class="card-img-top rounded-0" alt="...">
                         <div class="row card-body text-center">
                             <p class="max-lines text-start text-black col-12 card-description">
@@ -189,15 +189,15 @@
                                 Brian kom også forbi med is til drengene 👍🏻🍦
                             </p>
                             <hr class="mt-3">
-                            <div class="col-4 border-gray border-5"><i class="text-secondary fa-regular fa-thumbs-up"></i></div>
-                            <div class="col-4"><i class="text-secondary fa-regular fa-comments"></i></div>
-                            <div class="col-4"><i class="text-secondary fa-regular fa-share-from-square"></i></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/thumbs-up-regular.svg" alt="Kan lide"></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/comment-regular.svg" alt="Kommenter"></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/share-from-square-regular.svg" alt="Del"></div>
                         </div>
                     </a>
                 </div>
             <div class="col-auto col-sm-6 col-lg-4 col-xl-3 d-none d-sm-block">
-                    <a class="text-decoration-none card rounded-0" href="https://www.facebook.com/brianmadsencom" target="_blank">
-                        <img src="images/facebook-post-img-2.webp" loading="lazy" class="card-img-top rounded-0" alt="...">
+                    <a class="text-decoration-none card rounded-0" href="https://www.facebook.com/brianmadsencom/posts/pfbid0K8y4RiMbjTQdBNuPPNDrwPGJHbihFY5x4tmdtbrPaFfneyiZwCuVEfxbEWUPDGn2l" target="_blank">
+                        <img src="images/facebook-post-img-2.webp" loading="lazy" class="card-img-top rounded-0" alt="Nyhedsopslag">
                         <div class="row card-body text-center">
                             <p class="max-lines text-start text-black col-12 card-description">
                                 HONGQI - Nyt kinesisk bilmærke
@@ -205,15 +205,15 @@
                                 Kig allerede ud imorgen og se / prøve dette vidunder af en SUV på ren EL !!
                             </p>
                             <hr class="mt-3">
-                            <div class="col-4 border-gray border-5"><i class="text-secondary fa-regular fa-thumbs-up"></i></div>
-                            <div class="col-4"><i class="text-secondary fa-regular fa-comments"></i></div>
-                            <div class="col-4"><i class="text-secondary fa-regular fa-share-from-square"></i></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/thumbs-up-regular.svg" alt="Kan lide"></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/comment-regular.svg" alt="Kommenter"></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/share-from-square-regular.svg" alt="Del"></div>
                         </div>
                     </a>
                 </div>
             <div class="col-auto col-sm-6 col-lg-4 col-xl-3 d-none d-lg-block">
-                    <a class="text-decoration-none card rounded-0" href="https://www.facebook.com/brianmadsencom" target="_blank">
-                        <img src="images/facebook-post-img-3.webp" loading="lazy" class="card-img-top rounded-0" alt="...">
+                    <a class="text-decoration-none card rounded-0" href="https://www.facebook.com/photo/?fbid=621475773321639&set=pb.100063776640924.-2207520000." target="_blank">
+                        <img src="images/facebook-post-img-3.webp" loading="lazy" class="card-img-top rounded-0" alt="Nyhedsopslag">
                         <div class="row card-body text-center">
                             <p class="max-lines text-start text-black col-12 card-description">
                                 CITROËN ELITE-FORHANDLER 2023 😄
@@ -226,15 +226,15 @@
                                 Vi kan med stolthed sige at vi i Ringsted er Citroën Elite Forhandler 2023! 🥳
                             </p>
                             <hr class="mt-3">
-                            <div class="col-4 border-gray border-5"><i class="text-secondary fa-regular fa-thumbs-up"></i></div>
-                            <div class="col-4"><i class="text-secondary fa-regular fa-comments"></i></div>
-                            <div class="col-4"><i class="text-secondary fa-regular fa-share-from-square"></i></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/thumbs-up-regular.svg" alt="Kan lide"></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/comment-regular.svg" alt="Kommenter"></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/share-from-square-regular.svg" alt="Del"></div>
                         </div>
                     </a>
                 </div>
             <div class="col-auto col-sm-6 col-lg-4 col-xl-3 d-none d-xl-block">
-                    <a class="text-decoration-none card rounded-0" href="https://www.facebook.com/brianmadsencom" target="_blank">
-                        <img src="images/facebook-post-img-4.webp" loading="lazy" class="card-img-top rounded-0" alt="...">
+                    <a class="text-decoration-none card rounded-0" href="https://www.facebook.com/photo.php?fbid=647955877340295&set=pb.100063776640924.-2207520000.&type=3" target="_blank">
+                        <img src="images/facebook-post-img-4.webp" loading="lazy" class="card-img-top rounded-0" alt="Nyhedsopslag">
                         <div class="row card-body text-center">
                             <p class="max-lines text-start text-black col-12 card-description">
                                 😍 PEUGEOT 408 😍
@@ -256,9 +256,9 @@
                                 OBS: Vi har selvfølgelig også skarpe priser på vores andre modeller i denne weekend.
                             </p>
                             <hr class="mt-3">
-                            <div class="col-4 border-gray border-5"><i class="text-secondary fa-regular fa-thumbs-up"></i></div>
-                            <div class="col-4"><i class="text-secondary fa-regular fa-comments"></i></div>
-                            <div class="col-4"><i class="text-secondary fa-regular fa-share-from-square"></i></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/thumbs-up-regular.svg" alt="Kan lide"></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/comment-regular.svg" alt="Kommenter"></div>
+                            <div class="col-4 d-flex align-items-end justify-content-center"><img class="some-icon" src="images/share-from-square-regular.svg" alt="Del"></div>
                         </div>
                     </a>
                 </div>
