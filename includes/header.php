@@ -79,6 +79,9 @@
             <div class="w-100" id="menu-list">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-block ms-0">
                     <li class="nav-item py-3 ps-4">
+                        <a class="nav-link text-decoration-none text-light" href="index.php">Hjem</a>
+                    </li>
+                    <li class="nav-item py-3 ps-4">
                         <a class="nav-link text-decoration-none text-light" href="cars.php">Biler</a>
                     </li>
                     <li class="nav-item py-3 ps-4">
