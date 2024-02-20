@@ -22,7 +22,7 @@
     <meta property="og:title" content="Brian Madsen | Bilforhandler af højeste kvalitet">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https:/www.markphillip.dk/brianmadsenredesign">
-    <meta property="og:image" content="https:/www.markphillip.dk/brianmadsen_facilitet.webp">
+    <meta property="og:image" content="https:/www.markphillip.dk/projects/brianmadsenredesign/images/brianmadsen_facilitet.webp">
     <meta property="og:description" content="Velkommen hos Brian Madsen - Vores mål er, at give dig lidt mere end du havde forventet.">
     <meta property="og:locale" content="da_DK">
 
