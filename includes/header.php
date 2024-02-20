@@ -1,3 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Header</title>
+
+	<meta name="robots" content="noindex">
+	<meta name="author" content="Mark P. Thomassen">
+	<meta name="copyright" content="2023 markphillip.dk">
+    <meta name="description" content="Et redesign af brianmadsen.com">
+
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="images/favicon.ico" rel="icon" type="image/x-icon">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    
 <!-- Mobile Nav -->
 <div class="d-block d-lg-none fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
@@ -27,11 +52,11 @@
                 </li>
 
                 <li class="nav-item py-3 px-4">
-                    <a class="nav-link text-decoration-none text-light" href="#">Brugte Biler</a>
+                    <a class="nav-link text-decoration-none text-light" href="usedcars.php">Brugte Biler</a>
                 </li>
 
                 <li class="nav-item py-3 px-4">
-                    <a class="nav-link text-decoration-none text-light" href="#">Services</a>
+                    <a class="nav-link text-decoration-none text-light" href="services.php">Services</a>
                 </li>
 
                 <li class="nav-item py-3 px-4">
@@ -79,13 +104,16 @@
             <div class="w-100" id="menu-list">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-block ms-0">
                     <li class="nav-item py-3 ps-4">
+                        <a class="nav-link text-decoration-none text-light" href="index.php">Hjem</a>
+                    </li>
+                    <li class="nav-item py-3 ps-4">
                         <a class="nav-link text-decoration-none text-light" href="cars.php">Biler</a>
                     </li>
                     <li class="nav-item py-3 ps-4">
-                        <a class="nav-link text-decoration-none text-light" href="#">Brugte Biler</a>
+                        <a class="nav-link text-decoration-none text-light" href="usedcars.php">Brugte Biler</a>
                     </li>
                     <li class="nav-item py-3 ps-4">
-                        <a class="nav-link text-decoration-none text-light" href="#">Services</a>
+                        <a class="nav-link text-decoration-none text-light" href="services.php">Services</a>
                     </li>
                     <li class="nav-item py-3 ps-4">
                         <a class="nav-link text-decoration-none text-light" href="about.php">Om os</a>
@@ -125,3 +153,4 @@
 
 
 </div>
+</body>

@@ -86,7 +86,7 @@
     <div class="container scrollFade mt-5">
         <div class="row justify-content-between gy-3">
             <div class="col-12 col-md-3">
-                <a class="btn btn-secondary w-100 rounded-0 text-light p-3 text-nowrap overflow-hidden" href="cars.php">NYE BILER</a>
+                <a class="btn btn-secondary w-100 rounded-0 text-light p-3 text-nowrap overflow-hidden" href="cars.php">BILER</a>
             </div>
             <div class="col-12 col-md-3">
                 <a class="btn btn-secondary w-100 rounded-0 text-light p-3 text-nowrap overflow-hidden" href="usedcars.php">BRUGTE BILER</a>
